@@ -1,0 +1,149 @@
+Conditional Statement
+	if(cond){//code}
+	if(cond){//code} else{//code}
+	if(cond){//code} else if(cond){//code}.......... else{//code}
+	if(cond)//true{
+			if(cond){//code}
+			.......
+			else{
+			//code
+			}		
+		}else{
+			//code
+		}
+		
+If Else
+1. Use if else to apply discount based on total bill
+2. check whether a car is speeding based on the speed limit
+3. check if a person is eligible to vote based on their age
+4. Suppose you want to decide what to wear based on the weather 
+
+if Else if else
+1. Activity Suggestion based on time of school
+2. Determine whether student has completed fee payment based on fees paid
+3. If person is eligible for a driving license based on their age
+4. Use if else if to apply various discount based on total bill 
+
+Nested If
+1. Customer can book a ticket for certain movie depending on their age & movie rating 
+2. calculate tax based on person age & income, if person is young they might have lower tax rate,
+if they are oder they may get a different tax based on income
+
+Loops 
+	repeating itself based on specific condition for certain count
+	
+- for loop : all parameter known previously 
+	for(initialize;condition;inc/dec){
+		//code
+	}
+- while loop
+	initialize
+	while(condition){
+	//code
+	//inc/dec
+	}
+- do while loop : at least once program will execute if condition is not satisfied
+	do{
+		initialize
+		//code
+		inc/dec
+	}while(cond);
+- foreach loop
+
+
+function/method
+- block of code
+- can be static/instance
+- can be default/parameter
+
+Array
+- collection of similar data
+- fixed length
+- 1000 candidate, storage with capacity of 1000
+- declare, initialize, assign
+- enhanced for loop
+- arrays.sort(arrayname) --- asc sorting
+- arrays.sort(arrayname, Collections.reverseOrder()) --- desc sorting
+- sorting using insertion order 
+- smallest & largest 
+- second smallest & second largest 
+- fetch duplicate 
+- fetch duplicate & remove it 
+- Matrix 
+- Matrices Program
+
+OOPS
+Object Oriented Programming System/Structure - real world concept
+Object
+- physical thing, seen, touch, 
+Class
+- logical entity
+- property
+- functionality
+- access to property & functionality with object
+Static 
+- access to property & functionality of class 
+- get called itself at runtime with class
+- does not belong to object but rather to class itself 
+- static variable, static method
+Final 
+- something unchanged, cannot modified 
+- final variable, final method
+Constructor
+- similar to method but name will same as class name
+- default constructor get created automatically at time of object creation
+- invoke itself with object
+- use to initialize default values to class variables
+Super
+- reference to parent
+- use to refer/access parent variable, constructor, method in child class 
+Inheritance - relations
+ extending property between entity
+  - extends : inherit from a superclass
+  - parent/base/super class : class whose properties & method are inherited
+  - child/derived/sub class: which inherits properties & method from parent
+  - single, multilevel, hierarchical, multiple(via interface) 
+ reference/aggregation 
+Polymorphism
+	- Compile time(overloading) : method name same, datatype different, no of parameter different
+	- RunTime(overriding) : method name same, datatype same, no of parameter same. can be achieve only with inheritance
+Encapsulation
+	- protection
+	- wrap all data in single unit
+	- private data member & access with public getter-setter method
+Abstraction
+	- abstract
+	- hiding implementation details & showing only essential features
+	- helps in reducing complexity by providing simplified interface to user
+	- use a class or interface
+Access Modifier
+	-Public : accessible everywhere, in class, in same package, outside package
+	-Protected : accessible in class, in same package, outside package using inheritance
+	-Default : accessible in class, in same package
+	-Private : accessible in class , outside class using getter-setter
+Exception Handling
+	- unwanted or disrupts the normal flow
+	- mechanism to handle runtime errors so that normal flow of application is maintained
+	- error(cannot solve) & exception(can be handle)
+	- Compiletime/checked(syntax) & Runtime/unchecked(logic)
+	- inBuilt Runtime(ArithmeticException, NullPointerException, NumberFormatException, IndexOutofBoundException)
+	  & Custom 
+	- handle runtime exception : try, catch, finally, throw, throws
+	- one try can have multiple catch but at a time only one catch will handle
+	- a program can have multiple try - catch block & each catch run individually
+	 to handle exception if raised
+	- finally will get executed if exception raised & handle, exception raised & not handle, if no exception
+	- nested try , inner try-catch block will execute only if outer try code runs properly 
+
+
+
+
+
+
+
+
+
+
+
+
+
