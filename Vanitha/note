@@ -1,0 +1,11 @@
+Array : collections of any datatype
+
+length []
+datatype
+
+//declare
+syntax :  datatype arrayname;
+eg : String studentname[]
+String studentname[] = new String[];
+//declare & initialize
+String studentname[] = {'a','b','c','d','e','f'};
